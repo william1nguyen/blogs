@@ -83,8 +83,9 @@ docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/doc
 
 Once the CapRover is initialized, Visit `http://[IP_OF_YOUR_SERVER]:3000` in browser and login to CapRover using the default password `captain42`. After that, you can access Caprover Dashboard and deploy your app
 
-<img alt="caprover-login" src="../../../public/caprover-login.png">
-<img alt="caprover-dashboard" src="../../../public/caprover-dashboard.png">
+<img alt="caprover-login" src="/caprover-login.png">
+
+<img alt="caprover-dashboard" src="/caprover-dashboard.png">
 
 **Custom domain for Caprover server**
 
@@ -92,7 +93,7 @@ Create an A record that maps a wildcard subdomain `*.[SUBDOMAIN]` to the IP addr
 
 After that, go to Caprover Dashboard and connect your Domain with Caprover
 
-<img alt="caprover-connect-subdomain" src="../../../public/caprover-connect-subdomain.png">
+<img alt="caprover-connect-subdomain" src="/caprover-connect-subdomain.png">
 
 **Setup swap file for Linux**
 
